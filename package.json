@@ -1,5 +1,5 @@
 {
-  "name": "nexus",
+  "name": "RedeNexus",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.21.12",
+    "@clerk/themes": "^1.7.5",
+    "@heroicons/react": "^2.0.18",
     "@types/node": "20.3.2",
     "@types/react": "18.2.14",
     "@types/react-dom": "18.2.6",
@@ -19,6 +22,8 @@
     "postcss": "8.4.24",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.10.1",
+    "tailwind-scrollbar": "^3.0.4",
     "tailwindcss": "3.3.2",
     "typescript": "5.1.6"
   }
